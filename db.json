@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "id": "e62f",
+      "name": "Bhargavi",
+      "email": "Bhargavi@gmail.com",
+      "password": "123",
+      "contact": "1234567890",
+      "dob": "2002-10-18",
+      "address": "Hyderabad",
+      "gender": "female",
+      "accNo": 1,
+      "balance": 8000,
+      "createdAt": "2026-03-25T16:22:02.976Z"
+    },
+    {
+      "id": "d7b9",
+      "name": "Bharath",
+      "email": "Bharath@gmail.com",
+      "password": "456",
+      "contact": "1234567890",
+      "dob": "2002-05-05",
+      "address": "Hyderabad",
+      "gender": "male",
+      "accNo": 2,
+      "balance": 9000,
+      "createdAt": "2026-03-25T16:22:02.976Z"
+    },
+    {
+      "id": "c10c",
+      "name": "Suharika",
+      "email": "Harika@gmail.com",
+      "password": "789",
+      "contact": "1234567890",
+      "dob": "2026-03-25",
+      "address": "Hyderabad",
+      "gender": "female",
+      "accNo": 3,
+      "balance": 9000,
+      "createdAt": "2026-03-25T16:22:02.976Z"
+    }
+  ],
+  "history": [
+    {
+      "id": "8432",
+      "transactionId": "9e9999b8-6780-4a14-9a85-2358cd7ed742",
+      "sendId": "e62f",
+      "receiverId": "d7b9",
+      "amount": "1000",
+      "Notification": true,
+      "date": "Sat Mar 28 2026",
+      "holderName": "Bhargavi",
+      "notification": true
+    },
+    {
+      "id": "9d37",
+      "transactionId": "0cc4c5f4-8264-4564-bfe1-9d0b06917f4c",
+      "sendId": "d7b9",
+      "receiverId": "e62f",
+      "amount": "1000",
+      "Notification": true,
+      "date": "Sat Mar 28 2026",
+      "notification": true
+    },
+    {
+      "id": "5b34",
+      "transactionId": "259a3af8-8df4-47e8-9dda-50d1d7aaf555",
+      "sendId": "e62f",
+      "receiverId": "d7b9",
+      "amount": "1000",
+      "Notification": true,
+      "date": "Sat Mar 28 2026"
+    },
+    {
+      "id": "d6e6",
+      "transactionId": "2b5fd689-bf4f-42ba-bea7-72fde80109a3",
+      "sendId": "d7b9",
+      "receiverId": "e62f",
+      "amount": "1000",
+      "Notification": true,
+      "date": "Sat Mar 28 2026",
+      "notification": true
+    },
+    {
+      "id": "0f20",
+      "transactionId": "98d7224a-6b8b-48ba-816e-73105e99dd40",
+      "sendId": "e62f",
+      "receiverId": "d7b9",
+      "amount": "1000",
+      "Notification": true,
+      "date": "Sun Mar 29 2026",
+      "notification": true
+    },
+    {
+      "id": "e243",
+      "transactionId": "363fbb4a-3dd5-468d-b3aa-9fe8539f4b56",
+      "sendId": "c10c",
+      "receiverId": "d7b9",
+      "amount": "1000",
+      "Notification": true,
+      "date": "Sun Mar 29 2026"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
